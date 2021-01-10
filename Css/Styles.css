@@ -1,0 +1,89 @@
+
+/* header */
+.header{
+  font-family: sans-serif;
+}
+.header-p{
+  color: #927B91;
+  padding-top: 15px;
+}
+.header-top{
+  color: #512051;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.container-fluid{
+  padding: 10%;
+}
+/* Star rating */
+.fa{
+  text-align: left;
+  color: orange;
+  padding-right: 5px;
+}
+.star-two{
+  margin-left: 30px;
+}
+.star-three{
+  margin-left: 60px;
+}
+.star-Rating{
+  color: #512051;
+  font-family: sans-serif;
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  background-color: #F7F2F7;
+  text-align: center;
+  width: 25rem;
+
+}
+/* Review Messages */
+.feature-box-left{
+  background-color: #512051;
+  position: absolute;
+}
+/* verified-Buyers */
+.verified-Smith{
+  border-radius: 30px;
+  background-color: #512051;
+  margin: 20px 20px 0 10px;
+  width: 150px;
+  height: 200px;
+}
+.verified-Roberts{
+  border-radius: 30px;
+  background-color: #512051;
+  margin: 30px 20px 0 0px;
+  width: 150px;
+  height: 200px;
+}
+.verified-Anne{
+  border-radius: 30px;
+  background-color: #512051;
+  margin: 40px 30px 0 0px;
+  width: 150px;
+  height: 200px;
+}
+.verified-text-white{
+  color: white;
+  font-size: 12px;
+  margin: 10px 0 0 0;
+}
+.verified{
+  color: #D85E98
+}
+.woman{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 15%;
+  float: left;
+  border-radius: 100%;
+}
+@media (max-width: 900px) {
+  .star-two{
+    margin-left: 0;
+  }
+  .star-three{
+    margin-left: 0
+}
+}
